@@ -1,0 +1,62 @@
+body {
+    background-color: #9ecddf;
+}
+div.login {
+    height: 110px;
+    width: 380px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.login_botao {
+    height: 60px;
+    width: 140px;
+    position: absolute;
+    top: 67%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+div.login_botao a.botao {
+    display: block;
+    font: 17px sans-serif;
+    text-align: center;
+    line-height: 60px;
+    height: 100%;
+    width: 100%;
+    background-color: #1B1B1D;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+}
+div.login input.matricula, input.senha {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50%; 
+    padding-left: 14px;
+    font-size: 17px;
+    border: 2px white solid;
+    outline: 0;
+}
+div.login input.senha {
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+div.login input.matricula {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+div.recuperar_senha, div.recuperar_login{
+    position: absolute;
+    top: 77%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font: 17px sans-serif; 
+}
+div.recuperar_login { 
+    top: 84%;
+}
+div.recuperar_senha a, div.recuperar_login a {
+    color: rgb(56, 56, 56);
+}

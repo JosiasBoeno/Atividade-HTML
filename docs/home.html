@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gestão de Paginas HTML</title>
+    <link rel="stylesheet" href="estilo_home.css">
+    <script src="home.js"></script>
+</head>
+<body>
+    <div class="sair_botao">
+        <a class="sair"href="index.html" title="Clique para sair do sistema">Sair</a>
+    </div>
+    <h1>Gestão de Paginas HTML</h1>
+    <div class="pesquisar">
+    <img src="/Atividade-HTML/docs/icon.jpg">
+    <input id="myInput" onkeyup="myFunction()" type="text" placeholder="Pesquise paginas existentes" title="Pesquise paginas HTML existentes no sistema">
+    </div>
+    <h2>Lista de Paginas</h2>
+    <section class="lista">
+        <ul id="myUL">
+            <li><a href="#">Financeiro</a><button onclick="confirmacao('0')" type="button">Deletar</button></li>
+            <li><a href="#">Atendimento</a><button onclick="confirmacao('1')" type="button">Deletar</button></li>
+            <li><a href="#">Contato</a><button onclick="confirmacao('2')" type="button">Deletar</button></li>
+            <li><a href="#">Disciplinas</a><button onclick="confirmacao('3')" type="button">Deletar</button></li>
+            <li><a href="#">Notas</a><button onclick="confirmacao('4')" type="button">Deletar</button></li>
+            <li><a href="#">Noticias</a><button onclick="confirmacao('5')" type="button">Deletar</button></li>
+            <li><a href="#">Formatura</a><button onclick="confirmacao('6')" type="button">Deletar</button></li>
+            <li><a href="#">Matricula</a><button onclick="confirmacao('7')" type="button">Deletar</button></li>
+            <li><a href="#">Ajustes</a><button onclick="confirmacao('8')" type="button">Deletar</button></li>
+            <li><a href="#">Home</a><button onclick="confirmacao('9')" type="button">Deletar</button></li>
+            <li><a href="#">Avaliações</a><button onclick="confirmacao('10')" type="button">Deletar</button></li>
+        </ul>
+    </section>
+    <div class="pagina">
+        <a class="nova_pagina" href="criacao.html" title="Clique para criar uma nova pagina HTML">Criar Nova Pagina</a>
+    </div>
+</body>
+</html>

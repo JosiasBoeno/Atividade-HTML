@@ -1,0 +1,119 @@
+body {
+    background-color: #9ecddf;
+}
+div.sair_botao {
+    height: 35px;
+    width: 50px;
+    position: absolute;
+    left: 94.5%;
+    top: 3%;
+}
+div.sair_botao a.sair {
+    display: block;
+    font: 14px sans-serif;
+    text-align: center;
+    line-height: 35px;
+    height: 100%;
+    width: 100%;
+    background-color: #1B1B1D;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+h1 {
+    position: absolute;
+    left: 50%;
+    top: 4%;
+    font: 34px 'Berkshire Swash', cursive;
+    color: #6027a5;
+    transform: translate(-50%, -50%);
+}
+section.lista {
+    background-color: #e7e4e4;
+    overflow:auto;
+    position: absolute;
+    left: 33%;
+    top: 60%;
+    transform: translate(-50%, -50%);
+    width: 400px;
+    height: 300px;
+    border: 1px #1B1B1D solid;
+    border-radius: 5px;
+}
+div.pesquisar {  
+    position: absolute;
+    height: 30px;
+    width: 320px;
+    top: 28%;
+    left: 20%;
+}
+div.pesquisar input {
+    padding-left: 34px;
+    height: 100%;
+    width: 100%;
+    outline: 0;
+    border-radius: 20px;
+    border: none;
+    font: 15px sans-serif;
+}
+img {
+    width: 16px;
+    height: 16px;
+    position: absolute;
+    top: 50%;
+    left: 5%;
+    transform: translate(-50%, -50%);
+}
+div.pagina {
+    height: 60px;
+    width: 180px;
+    position: absolute;
+    top: 33%;
+    left: 66%;
+    transform: translate(-50%, -50%);
+}
+div.pagina a.nova_pagina {
+    display: block;
+    font: 17px sans-serif;
+    text-align: center;
+    line-height: 60px;
+    height: 100%;
+    width: 100%;
+    background-color: #1B1B1D;
+    color: white;
+    border-radius: 5px;
+    font-weight: 600;
+    text-decoration: none;
+}
+h2 {
+    width: 250px;
+    font: 26px 'Berkshire Swash', cursive;
+    position: absolute;
+    top: 20%;
+    left: 35%;
+    transform: translate(-50%, -50%);  
+}
+ul {
+    position: relative;
+    margin-left: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 250px;
+}
+li {
+    margin-top: 16px;
+}
+section.lista a { 
+    font: 20px sans-serif;
+    color: black;
+    text-decoration: none;
+}
+button {
+    height: 22px;
+    width: 60px;
+    margin-left: 20px;
+    color: white;
+    background-color: #1B1B1D;
+    border: none;
+    border-radius: 4px;
+}

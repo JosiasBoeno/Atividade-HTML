@@ -1,0 +1,22 @@
+body {
+    background-color: #9ecddf;
+}
+div.voltar_botao {
+    height: 35px;
+    width: 50px;
+    position: absolute;
+    left: 94.5%;
+    top: 3%;
+}
+div.voltar_botao a.voltar {
+    display: block;
+    font: 14px sans-serif;
+    text-align: center;
+    line-height: 35px;
+    height: 100%;
+    width: 100%;
+    background-color: #1B1B1D;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
